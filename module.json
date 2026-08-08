@@ -1,0 +1,26 @@
+{
+  "id": "sanctum-cpr-hooks",
+  "title": "Sanctum CPR Hooks",
+  "description": "Ammo modifiers, Machine Gun Autofire DV, for Cyberpunk RED",
+  "version": "1.1.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Sanctum"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "cyberpunk-red-core",
+        "type": "system"
+      }
+    ]
+  }
+}
