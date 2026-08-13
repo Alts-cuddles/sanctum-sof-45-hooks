@@ -1,8 +1,8 @@
 {
   "id": "sanctum-sof-45-hooks",
   "title": "Sanctum SOF-45 Hooks",
-  "description": "Ammo modifiers and Machine Gun / Subcompact SMG / Machine Pistol Autofire DV for Cyberpunk RED (Solo of Fortune 2045)",
-  "version": "1.0.0",
+  "description": "Ammo modifiers, Machine Gun / Subcompact SMG / Machine Pistol Autofire DV, and Diwako DV Display integration for Cyberpunk RED (Solo of Fortune 2045)",
+  "version": "1.1.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -22,9 +22,21 @@
         "id": "cyberpunk-red-core",
         "type": "system"
       }
+    ],
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module"
+      }
+    ],
+    "recommends": [
+      {
+        "id": "diwako-cpred-additions",
+        "type": "module"
+      }
     ]
   },
-  "url": "https://github.com/Alts-cuddles/sanctum-sof-45-hooks",
-  "manifest": "https://github.com/Alts-cuddles/sanctum-sof-45-hooks/releases/latest/download/module.json",
-  "download": "https://github.com/Alts-cuddles/sanctum-sof-45-hooks/releases/latest/download/sanctum-sof-45-hooks.zip"
+  "url": "https://github.com/Alts-cuddles/Sanctum-SOF-45-Hooks",
+  "manifest": "https://github.com/Alts-cuddles/Sanctum-SOF-45-Hooks/releases/latest/download/module.json",
+  "download": "https://github.com/Alts-cuddles/Sanctum-SOF-45-Hooks/releases/latest/download/sanctum-sof-45-hooks.zip"
 }
