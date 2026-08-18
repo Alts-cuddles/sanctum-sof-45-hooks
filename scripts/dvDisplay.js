@@ -1,6 +1,6 @@
-console.log("%c[Sanctum DV] loaded", "color: #0f0; font-weight: bold");
+console.log("%c[Sanctum DV] Diwako inject loaded", "color: #0f0; font-weight: bold");
 
-const MODULE_ID = "sanctum-sof-45-hooks";
+const MODULE_ID = "sanctum-cpr-hooks"; // must match your module.json id
 
 const SANCTUM_DV_TABLES = {
   machinegun: [
